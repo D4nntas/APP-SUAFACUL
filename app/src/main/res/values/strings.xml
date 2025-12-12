@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SuaFacul</string>
+    <string name="welcome_message">Olá, %1$s!</string>
+</resources>

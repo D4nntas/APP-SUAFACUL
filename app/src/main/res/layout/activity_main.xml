@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/dark_bg_primary">
+
+    <!-- Logo/Título -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SuaFacul"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_accent"
+        android:paddingBottom="40dp" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo de volta"
+        android:textSize="16sp"
+        android:textColor="@color/dark_text_secondary"
+        android:paddingBottom="30dp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_dark_bg"
+        android:textColor="@color/dark_text_primary"
+        android:textColorHint="@color/dark_text_secondary"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Senha Input -->
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_dark_bg"
+        android:textColor="@color/dark_text_primary"
+        android:textColorHint="@color/dark_text_secondary"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Botão Entrar -->
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Entrar"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_dark_primary"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Botão Criar Conta -->
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Criar conta"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_accent"
+        android:background="@drawable/button_dark_secondary" />
+
+</LinearLayout>
