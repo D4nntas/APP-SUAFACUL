@@ -44,7 +44,8 @@ class MainActivity : AppCompatActivity() {
                             startActivity(Intent(this, HomeActivity::class.java))
                         } else {
                             val intent = Intent(this, HomeUserActivity::class.java)
-                            intent.putExtra("nome", usuario.nome) // MANDANDO O NOME
+                            intent.putExtra("nome", usuario.nome)
+                            intent.putExtra("usuario_id", usuario.id)  // ✅ ADICIONE ESTA LINHA
                             startActivity(intent)
                         }
                         Toast.makeText(this, "Bem-vindo!", Toast.LENGTH_SHORT).show()

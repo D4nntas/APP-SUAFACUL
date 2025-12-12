@@ -24,11 +24,17 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
+            android:name=".EditarPerfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".CadastroActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
