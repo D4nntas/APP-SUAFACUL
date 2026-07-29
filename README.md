@@ -24,4 +24,4 @@ IDE: Android Studio
 Componentes UI: XML Layouts
 
 ✒️ Autores
-Seu Nome — Erick Dantas
+Erick Dantas
