@@ -1,4 +1,5 @@
-🎓 SuaFacul — Versão Mobile
+
+# 🎓 SuaFacul — Versão Mobile 
 Seu guia para encontrar o curso superior e a instituição ideal, na palma da sua mão.
 
 O SuaFacul Mobile é um aplicativo Android desenvolvido em Kotlin no Android Studio. Ele nasceu como a versão mobile de um projeto acadêmico focado em simplificar a jornada de estudantes na busca por cursos de ensino superior e instituições de ensino (públicas e privadas).
@@ -21,3 +22,6 @@ Linguagem: Kotlin
 IDE: Android Studio
 
 Componentes UI: XML Layouts
+
+✒️ Autores
+Seu Nome — Erick Dantas
